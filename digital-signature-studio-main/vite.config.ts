@@ -5,6 +5,8 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
+  // ADICIONE ESTA LINHA: Substitua 'nome-do-seu-repositorio' pelo nome real do repo no GitHub
+  base: "/digital-signature-studio-/", 
   server: {
     host: "::",
     port: 8080,
